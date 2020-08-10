@@ -1,0 +1,50 @@
+// Place all the styles related to the games controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:wght@300;400&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+  font-family: 'Luckiest Guy', cursive;
+  text-align: center;
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: bold;
+  color: white;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 10px;
+  border: 1px black solid;
+  background-color: #00b7c2;
+}
+
+li:hover {
+  background-color: orange;
+}
+
+form {
+  padding-top: 20px;
+}
+
+a {
+  padding: 10px;
+  background-color: #d54062;
+  border: 1px black solid;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #ffa36c;
+}
+
